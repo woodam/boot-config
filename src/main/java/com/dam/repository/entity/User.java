@@ -3,6 +3,11 @@ package com.dam.repository.entity;
 
 import lombok.Data;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 @Data
 @Entity
 public class User {
@@ -13,5 +18,4 @@ public class User {
 	private String name;
 	private Integer sex;
 	private Double degree;
-
 }
